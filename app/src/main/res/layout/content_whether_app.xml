@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.application.wheatherapp.WhetherApp"
+    tools:showIn="@layout/activity_whether_app">
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:id="@+id/edt_city"
+        android:hint="Enter city"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:id="@+id/edt_temp"
+        android:hint="Enter temparature"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:inputType="number"
+        android:layout_margin="10dp"/>
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_unit"
+        android:hint="Enter unit"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+</LinearLayout>
